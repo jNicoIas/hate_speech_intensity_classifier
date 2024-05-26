@@ -9,23 +9,31 @@ The first approach uses lexicons and dictionaries to classify text from Quora as
 For data visualization, bar and pie charts were used to check the distribution of the dataset and a word cloud to identify commonly used words in hate speech and non-hate speech.
 
 ## Data Pre-processing
-**Duplicate Removal:** Ensures there are no repeated entries in the dataset.
+**Duplicate Removal:** Ensures there are no repeated entries in the dataset.  
+
 **Lemmatization:** Reduces words to their base or root form.
-**Stop Words Removal:** Eliminates common words that do not contribute to the meaning of the text.
-**Vectorization and Feature Extraction:** Uses TF-IDF and n-grams to convert text into numerical features.
+
+**Stop Words Removal:** Eliminates common words that do not contribute to the meaning of the text.  
+
+**Vectorization and Feature Extraction:** Uses TF-IDF and n-grams to convert text into numerical features.  
 
 ## Model Building
 **Data Splitting:** The dataset is split into 80% training and 20% testing sets.
+
 **Model Training:** Uses Scikit-learn to train models such as Naive Bayes, Random Forest, and SVM.
 
 ## Model Validation
 Several metrics were used to validate the models:
 
-**Precision:** Measures the accuracy of positive predictions.
-**Recall:** Measures the ability to find all relevant instances.
-**F1-score: **Harmonic mean of precision and recall, providing a balance between the two.
-**Confusion Matrix:** Shows the performance of the classification model.
-**K-Fold Cross-Validation:** K-fold cross-validation was employed to estimate the average accuracy of the models and prevent overfitting.
+**Precision:** Measures the accuracy of positive predictions. 
+
+**Recall:** Measures the ability to find all relevant instances.  
+
+**F1-score:** Harmonic mean of precision and recall, providing a balance between the two.  
+**Confusion Matrix:** Shows the performance of the classification model.  
+
+**K-Fold Cross-Validation:** K-fold cross-validation was employed to estimate the average accuracy of the models and prevent overfitting.  
+
 These metrics ensure that the models are evaluated comprehensively, highlighting their strengths and weaknesses.
 
 ## Contributing
