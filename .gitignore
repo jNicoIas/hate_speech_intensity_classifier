@@ -23,6 +23,8 @@ dist/
 # other files
 rrl/
 dataset/
+other_files/
+output/
 
 # JetBrains IDE
 .idea/
@@ -48,6 +50,7 @@ Thumbs.db
 *.flv
 *.mov
 *.wmv
+*.docx
 
 # Environments
 .env*
